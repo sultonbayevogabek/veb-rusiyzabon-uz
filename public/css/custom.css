@@ -35,10 +35,10 @@ body {
   color: #000000;
 }
 
-.thank-you-page {
-  background-position: bottom right;
+.bg-telegram {
+  background-position: top right;
   background-attachment: fixed;
-  background-image: url("../img/bg_thank_you@1x.jpg");
+  background-image: url("../img/bg_telegram@1x.jpg");
 }
 
 .gradient-text {
@@ -65,25 +65,13 @@ body {
     background-image: url("../img/bg_main@2x.jpg");
   }
 
-  .thank-you-page {
-    background-image: url("../img/bg_thank_you@2x.jpg");
+  .bg-telegram {
+    background-image: url("../img/bg_telegram@2x.jpg");
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  body {
+  body, .bg-telegram {
     background-image: none;
-  }
-
-  .thank-you-page {
-    background-image: url("../img/bg_thank_you_mobile@1x.jpg");
-  }
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  @media only screen and (max-width: 1024px) {
-    .thank-you-page {
-      background-image: url("../img/bg_thank_you_mobile@2x.jpg");
-    }
   }
 }
